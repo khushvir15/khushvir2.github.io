@@ -105,6 +105,23 @@ ul#nav {
 	}
 
 
+#1  {
+  box-sizing: border-box;
+}
+
+#1 column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+#1 row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
 
 
 
